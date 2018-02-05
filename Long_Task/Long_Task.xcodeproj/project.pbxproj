@@ -433,6 +433,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YDEVQQ22JR;
 				INFOPLIST_FILE = Long_Task/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tvunetworks.com.Long-Task";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -447,6 +448,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YDEVQQ22JR;
 				INFOPLIST_FILE = Long_Task/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tvunetworks.com.Long-Task";
 				PRODUCT_NAME = "$(TARGET_NAME)";

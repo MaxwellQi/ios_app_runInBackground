@@ -9,7 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+//@property (nonatomic,strong)NSTimer *executeTimer;
 @end
 
 @implementation ViewController
@@ -17,6 +17,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
+//    if (_executeTimer == nil) {
+//        _executeTimer = [NSTimer scheduledTimerWithTimeInterval:1.0f
+//                                                          target:self
+//                                                        selector:@selector(info)
+//                                                        userInfo:nil
+//                                                         repeats:YES];
+//    }
+}
+
+- (void)info
+{
+    NSLog(@"app running..");
 }
 
 
